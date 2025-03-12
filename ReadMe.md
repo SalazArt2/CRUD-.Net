@@ -6,8 +6,14 @@ Proyecto introductorio de creación de **Rest APi** en [.Net](https://dotnet.mic
 
 ## Útiles
 
-| Comando                             | Descripción                                                     |
-| ----------------------------------- | --------------------------------------------------------------- |
-| `shell dotnet run`                  | Inicializa el servicio                                          |
-| `dotnet ef migrations add {nombre}` | Migrar la base de Datos con el `{nombre}` especificado          |
-| `dotnet ef database update`         | Genera el archivo de Base de Datos en función del DMBS escogido |
+```markdown
+[!IMPORTANT]
+Para ejecutar el proyecto se deben ejecutar los siguientes comandos en el orden dado
+```
+
+| Comando                             | Descripción                                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `cd WebAPIProducto`                 | Acceder a la carpeta del proyecto.                                                                                                    |
+| `dotnet ef migrations add {nombre}` | Migra la base de Datos con el `{nombre}` especificado en caso de haber modificado algo, sino hay cambios, no se ejecuta este comando. |
+| `dotnet ef database update`         | Genera el archivo de Base de Datos en función del DMBS escogido.                                                                      |
+| `dotnet run`                        | Inicializa el servicio.                                                                                                               |

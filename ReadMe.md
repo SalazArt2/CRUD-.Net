@@ -6,10 +6,8 @@ Proyecto introductorio de creación de **Rest APi** en [.Net](https://dotnet.mic
 
 ## Útiles
 
-```markdown
-[!IMPORTANT]
-Para ejecutar el proyecto se deben ejecutar los siguientes comandos en el orden dado
-```
+> [!IMPORTANT]
+> Para iniciar el servicio se deben ejecutar los siguientes comandos en el orden dado
 
 | Comando                             | Descripción                                                                                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |

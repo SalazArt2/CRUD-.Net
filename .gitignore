@@ -1,0 +1,4 @@
+.vscode
+DataApi.db
+DataApi.db-shm
+DataApi.db-wal
